@@ -4,6 +4,7 @@
   "description": "Learning...",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write ."
@@ -13,8 +14,11 @@
     "url": "git+https://github.com/HasibulHasanKhan/Backend-Fundamentals.git"
   },
   "keywords": [
-    "nodejs",
-    "js"
+    "node",
+    "eslint",
+    "prettier",
+    "linter",
+    "formatter"
   ],
   "author": "Hasibul Hasan Khan",
   "license": "MIT",
