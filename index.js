@@ -1,1 +1,1 @@
-console.log('Hasib');
+console.log(__filename);
