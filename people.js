@@ -5,4 +5,8 @@ function test() {
   console.log('ok');
 }
 
-module.exports = people;
+module.exports = {
+  people: people,
+  a: a,
+  test,
+};
