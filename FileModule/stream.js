@@ -10,4 +10,10 @@ const fs = require('fs');
 
 // readStream.on('end', () => {
 //   console.log('File reading complete');
-//
+
+// writing a File as a Stream :
+
+const writeStream = fs.createWriteStream('./FileModule/datum.txt,', 'utf8');
+
+writeStream.write('This is a stream .\n');
+writeStream.end('Final line');
