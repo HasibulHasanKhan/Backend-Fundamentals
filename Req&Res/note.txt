@@ -1,0 +1,24 @@
+req.method 
+req.url - without domain
+req.headers - an object containing request header.
+req.rawHeaders - an array containing the raw headers.
+req.httpVersion -
+req.connection - The network connection information.
+req.socket - The underlying socket of the request.
+req.body - Contains the request body 
+req.query - 
+req.params - 
+req.on("data", callback) - Listens for data in the request body.
+req.on("end", callback) - Listens for the end of the request.
+
+//--------------------------------------
+
+res.statusCode - sets the http status code.
+res.setHeader(name, value) - sets a response header.
+res.getHeader(name) - Getd the value of a response headers.
+res.writeHead(statusCode, headers) - Sets response status and headers.
+res.write(data) - writes data to the response body.
+rea.end([data]) - Ends the response and sends optional data.
+res.json(obj) - 
+res.sendFile(path) 
+res.redirect(url)
