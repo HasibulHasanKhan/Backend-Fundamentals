@@ -13,7 +13,21 @@ const fs = require('fs');
 
 // writing a File as a Stream :
 
-const writeStream = fs.createWriteStream('./FileModule/datum.txt,', 'utf8');
+// const writeStream = fs.createWriteStream('./FileModule/datum.txt,', 'utf8');
 
-writeStream.write('This is a stream .\n');
-writeStream.end('Final line');
+// writeStream.write('This is a stream .\n');
+// writeStream.end('Final line');
+
+//------------------------------------
+
+// fs.copyFile('./FileModule/example.txt', './FileModule/copy.txt', (err) => {
+//   if (err) throw err;
+
+//   console.log('File copied.');
+// });
+
+//-----------------------------
+// fs.rename('oldName.txt', 'newName.txt', (err) => {
+//   if (err) throw err;
+//   console.log('File renamed!');
+// });
