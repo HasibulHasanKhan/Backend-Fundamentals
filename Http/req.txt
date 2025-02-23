@@ -1,0 +1,16 @@
+Common req Method and Propertise :
+
+req.method = The http method used 
+req.url = The url of the request(without domain)
+req.headers = An object containing request headers. 
+req.rawHeaders = An array containing the raw headers.
+req.httpVersion = The HTTP version 
+req.connection = The network connection information
+req.socket = The underlyig socket request header .
+req.getHader(name) = Retrieve a specific socket request header.
+req.body = Contains the request body -need middlewere in Express
+req.query = only express.
+req.params = only express.
+req.on("data", callback)
+req.on("end", callback)
+

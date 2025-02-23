@@ -1,0 +1,12 @@
+The res object is used to send response back to the client .
+
+The common res method and properties.
+
+res.statusCode = Sets the Http status code.
+res.setHeader(name, value) = set a response header.
+res.getHeader(name) = Gets the value of a response.
+res.writeHead(statusCode, headers) = set response status and headers.
+res.end(data) = Ends the response and sends optioal value.
+res.json(obj) = Sends a json response 
+res.sendFile(path)
+res.redirect(url)
