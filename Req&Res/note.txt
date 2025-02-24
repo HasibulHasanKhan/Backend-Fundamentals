@@ -22,3 +22,29 @@ rea.end([data]) - Ends the response and sends optional data.
 res.json(obj) - 
 res.sendFile(path) 
 res.redirect(url)
+------------------------------------------------------------
+req.method - get / post .
+req.url - url without domain 
+req.header - an object .
+req.rawHeaders - 
+req.httpVersion - 
+req.connection - 
+req.socket -
+req. getHeader -
+req.body - 
+req.query -
+req.params -
+req.on("data", callback) - Listens data for the request body.
+req.on("end", callback) - Listens for the end of the request.
+
+--------------------------------------------------------
+
+res.statusCode - 
+res.setHeader (name, value - sets a response header.)
+res.getHeader (name)
+res.writeHead(statusCode, headers)
+res.write(data)
+res.end([data])
+res.json(obj)
+res.sendFile(path)
+res.redirect(url)
