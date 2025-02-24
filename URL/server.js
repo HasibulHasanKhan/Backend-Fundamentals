@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.write(`Path: ${myURL.pathname} \n`);
   res.write(`Query Params: ${myURL.searchParams.toString()}`);
-  res.end();
+  res.end({ message: 'Query received', query: myURL.query });
 });
 
 server.listen(3000, () => {
