@@ -1,0 +1,12 @@
+ * UseCase of Stream :
+
+ - Efficient memory usage : Works with data in chunks.
+ - Faster processing : Begins processing as soon as data arrives.
+ - Non -Blocking: Streams use event-driven architecture.
+
+ -------------------------------------------
+
+ Readable : fs.createReadStream()
+ Writeable : fs.createWriteStream()
+ Duplex : net.Socket | Both readable and writeable.
+ Transform : Similar to Duplex but modifies data(compression, encryption)
