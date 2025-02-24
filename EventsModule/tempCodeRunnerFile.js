@@ -1,0 +1,2 @@
+
+eventEmitter.emit('init');
